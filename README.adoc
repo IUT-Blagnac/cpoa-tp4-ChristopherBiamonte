@@ -378,7 +378,7 @@ Nous allons modifier le code en plusieurs classes en observant que :
 -------
    application
    application.action
-   application.actionlist
+   application.actionList
 -------
 +
 .	Etudier la définition d'interface suivante et insérer sa définition dans votre projet dans le package `action` :
@@ -467,7 +467,7 @@ public interface ActionList extends Action {
 }
 ----
 +
-.	Déclarer une classe `ActionListAgenceBancaire` dans le package `application.actionlist`,
+.	Déclarer une classe `ActionListAgenceBancaire` dans le package `application.actionList`,
 ..	qui implémente `ActionList`,
 ..	dotée de quatre attributs (message, code, title, liste des actions). La liste des actions sera les différentes options que l'action list (menu) devra afficher.
 ..	écrire le code dont un constructeur correctement paramétré,
